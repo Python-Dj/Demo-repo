@@ -10,3 +10,7 @@ class Books:
     def __repr__(self):
         return self.book_name
     
+
+def name():
+    book = Books("Gita")
+    print(book)
